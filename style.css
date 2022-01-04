@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    top: 0px;
+    margin: 0px;
+}
+.content {
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.Header {
+    width: 100%;
+    max-width: 1219px;
+    position: fixed;;
+}
+
+.Header_container {
+    max-width: 100%;
+    display: flex;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background: #007765;
+}
+nav {
+    display: inline-block;
+}
+.Header_the_problem {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    transition: font-size 0.3s ease-in;
+}
+.Header_PiedPiperCoin {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    transition: font-size 0.3s ease-in;
+}
+.Header_the_team {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    transition: font-size 0.3s ease-in;
+}
+.puk {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.Jumbotron {
+    padding-top: 89px;
+    background: url("img/image-8.png");
+    height: 403px;
+    background-size: cover center;
+}
+.Jumbotron_container {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Jumbotron_PiperNEt_Is_Here {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84.38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.The_Problem_container {
+    padding-top: 48px;
+    padding-bottom: 92px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.The_Problem_title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+.The_Problem_text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.Hero {
+    background: url("img/image-9.png");
+    background-size: cover center;
+    height: 483px;
+}
+.Hero_container {
+    padding-top: 128px;
+    padding-bottom: 127px;
+    padding-left: 163px;
+    padding-right: 163px;
+}
+.Hero_text {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.PPC_Header_container {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 48px;
+}
+.PPC_Header_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+.PPC_logo_container {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 16px;
+}
+.PPC_logo_text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.PPC_logo {
+    float: left;
+    margin-right: 48px; 
+}
+.PPC_text_container {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.PPC_text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.The_Team_Header_container {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 48px;
+}
+.The_Team_Header_text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+.Crew_container {
+    display: flex;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 122px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.name {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #007765;
+}
+.role {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+.memb1 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-top: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-align: center;
+}
+.memb2 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-top: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-align: center;
+}
+.memb3 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-top: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-align: center;
+}
+.memb4 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-top: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-align: center;
+}
+.memb5 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-top: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-align: center;
+}
+.memb6 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-top: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-align: center;
+}
+.Crew_container img {
+    padding-bottom: 12px;
+    width: 168px;
+    height: 168px;
+}
+.Footer {
+    height: 176px;
+    background: #333333;
+}
+.Footer_container {
+    padding-left: 340px;
+    padding-right: 340px;
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
+.Footer_text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+.Header_menu a:hover {
+    font-size: 30px;
+    transition: font-size 0.3s ease-in;
+}
+.Header_menu a:hover {
+    font-size: 30px;
+    transition: font-size 0.3s ease-in;
+}
+
